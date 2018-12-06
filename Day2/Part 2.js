@@ -67,6 +67,4 @@ for (var letter in sortedArray) {
         }
 	}
 }
-
-
 console.log(answer);
