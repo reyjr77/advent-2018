@@ -22,17 +22,18 @@ for (var i = 0; i <= array.length - 1; i++) {
 			if (!threeCounted) {
 				threeTimes++;
 				threeCounted = true;
-            }
+            		}
 			j += 2;
-        }else if (a == b) {
+        	}else if (a == b) {
 			if (!twoCounted) {
 				twoTimes++;
 				twoCounted = true;
-            }
+            		}
 			j += 1;
-        }
+        	}
 	}
 	
 }
 
+var check = twoTimes * threeTimes;
 console.log(check);
